@@ -1,0 +1,11 @@
+function abrirModal(img) {
+    const modal = document.getElementById("modal");
+    const imagenGrande = document.getElementById("imagenGrande");
+
+    imagenGrande.src = img.src;
+    modal.style.display = "flex";
+}
+
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
